@@ -1,0 +1,258 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik";
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5rem;
+  background-color: #3dbeff;
+  color: white;
+}
+
+#logo {
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+#headerLinks {
+  display: flex;
+  justify-content: space-around;
+  gap: 5rem;
+}
+
+.headerLink {
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding-top: 20px;
+  color: white;
+  align-items: baseline;
+}
+
+button {
+  height: 50px;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  font-weight: 900;
+  padding: 10px 30px;
+  background-color: white;
+  border: none;
+  color: #24292f;
+  text-transform: uppercase;
+}
+
+/* img {
+  width: 100%;
+} */
+#section1 {
+  width: 100%;
+  height: 800px;
+  background-image: url(images/desktop/image-header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  object-fit: cover;
+
+  margin-top: -5rem;
+}
+
+.sec1Heading {
+  font-size: 6rem;
+  text-align: center;
+  padding-top: 4rem;
+  font-family: "Barlow", sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+}
+
+#arrowIcon {
+  font-size: 15rem;
+  left: 43%;
+  padding-top: 4rem;
+  position: absolute;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
+#section2 {
+  display: flex;
+  flex-direction: column;
+}
+.section2a,
+.section2b,
+.section2c {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sectionDiv {
+  width: 50%;
+}
+
+.sec2DivHeading {
+  font-size: 4rem;
+  padding: 50px 0px 0 150px;
+}
+.sec2DivPara {
+  font-size: 1.3rem;
+  padding: 0px 50px 50px 150px;
+  line-height: 2rem;
+  color: gray;
+}
+
+.learnMore {
+  font-size: 1rem;
+  padding: 0px 0px 0 150px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  text-decoration: underline 6px #faf1ca;
+}
+
+.sectionImg {
+  width: 50%;
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  object-fit: cover;
+}
+.eggImg {
+  background-image: url(images/desktop/image-transform.jpg);
+}
+
+.glassImg {
+  background-image: url(images/desktop/image-stand-out.jpg);
+}
+
+.berryImg {
+  background-image: url(images/desktop/image-graphic-design.jpg);
+}
+
+.orangeImg {
+  background-image: url(images/desktop/image-photography.jpg);
+}
+
+.berryImgHeading {
+  text-align: center;
+  padding-top: 400px;
+  font-size: 2.5rem;
+  color: #22554d;
+}
+
+.berryImgPara {
+  text-align: center;
+  padding: 0 20%;
+  color: #22554d;
+  line-height: 1.4rem;
+}
+.orangeImgHeading {
+  text-align: center;
+  padding-top: 400px;
+  font-size: 2.5rem;
+  color: #1f5a72;
+}
+
+.orangeImgPara {
+  text-align: center;
+  padding: 0 20%;
+  color: #1f5a72;
+  line-height: 1.4rem;
+}
+#clientTestimonyHeading {
+  text-align: center;
+  font-size: 3rem;
+  color: gray;
+  text-transform: uppercase;
+  padding: 150px 0 50px 0;
+}
+
+#clientTestimony {
+  display: flex;
+  padding: 0 15% 150px 15%;
+  gap: 5rem;
+}
+.clientImg {
+  border-radius: 50%;
+  width: 70px;
+  padding: 60px 0;
+}
+.clientImgDiv {
+  justify-content: center;
+  text-align: center;
+}
+
+.clientStatement {
+  text-align: center;
+  color: rgb(105, 104, 104);
+  line-height: 1.8rem;
+  font-weight: bold;
+}
+
+.clientName {
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.8rem;
+  font-size: 1.3rem;
+}
+
+.clientDesignation {
+  text-align: center;
+  color: rgb(105, 104, 104);
+  /* line-height: 1.8rem; */
+  font-weight: bold;
+  padding-top: 0;
+}
+
+.ImgInRow {
+  display: flex;
+}
+
+.rowImg {
+  width: 25%;
+}
+
+footer {
+  background-color: #90d4c5;
+  color: #2e7668;
+  text-align: center;
+  padding: 100px 0;
+}
+
+#footerLogo {
+  font-size: 3rem;
+}
+
+.footerLinks {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.footerLink {
+  color: #2e7668;
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding-top: 20px;
+  align-items: baseline;
+}
+
+.footerIcon {
+  display: flex;
+  gap: 4rem;
+  padding-top: 4rem;
+  justify-content: center;
+}
+
+button:hover,
+.learnMore:hover,
+i:hover {
+  cursor: pointer;
+}
